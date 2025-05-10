@@ -1,3 +1,7 @@
+using ProdutosApp.Application.Extensions;
+using ProdutosApp.Domain.Extensions;
+using ProdutosApp.Domain.Interfaces.Services;
+using ProdutosApp.Domain.Services;
 using ProdutosApp.Infra.Data.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,8 +13,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddScoped<ICategoriaDomainService, CategoriaDomainService>();
+
 //Registrando os serviços de injeção de dependência
+builder.Services.AddApplicationServices();
+builder.Services.AddDomainServices();
 builder.Services.AddEntityFramework(builder.Configuration);
+
 
 
 var app = builder.Build();

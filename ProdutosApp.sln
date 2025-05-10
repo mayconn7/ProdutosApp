@@ -20,7 +20,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProdutosAPP.Infra.Data", "ProdutosAPP.Infra.Data\ProdutosAPP.Infra.Data.csproj", "{369C9F72-547F-45F2-8E08-A7B4A8BC1964}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProdutosAPP.Infra.Data", "ProdutosAPP.Infra.Data\ProdutosAPP.Infra.Data.csproj", "{369C9F72-547F-45F2-8E08-A7B4A8BC1964}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProdutosApp.Application", "ProdutosApp.Application\ProdutosApp.Application.csproj", "{541EF0AE-EBD4-4C6D-8360-EEA4F6ECCA5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,6 +42,10 @@ Global
 		{369C9F72-547F-45F2-8E08-A7B4A8BC1964}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{369C9F72-547F-45F2-8E08-A7B4A8BC1964}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{369C9F72-547F-45F2-8E08-A7B4A8BC1964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{541EF0AE-EBD4-4C6D-8360-EEA4F6ECCA5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{541EF0AE-EBD4-4C6D-8360-EEA4F6ECCA5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{541EF0AE-EBD4-4C6D-8360-EEA4F6ECCA5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{541EF0AE-EBD4-4C6D-8360-EEA4F6ECCA5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{791E2F36-E815-4506-BB16-D3B9350DB84B} = {9D338E9C-0ADA-4670-9754-E54F1CCA87A5}
 		{7E84C94B-5CD8-431B-93DD-E36E56394749} = {A06D0DD4-FC17-4583-853C-01A181F0B67E}
 		{369C9F72-547F-45F2-8E08-A7B4A8BC1964} = {C7513FFC-65BF-4EBA-88F1-51B7BB1CD9E2}
+		{541EF0AE-EBD4-4C6D-8360-EEA4F6ECCA5A} = {225F1CE8-13B5-4019-A976-7ABC5DFE79EB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D8DEBDBC-ED9C-477B-A31F-56C9A662F7BF}
